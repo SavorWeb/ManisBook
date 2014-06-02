@@ -1,0 +1,96 @@
+// ------------------------------------------------------------
+// Navigation module
+// ------------------------------------------------------------
+
+// Place your BEM/SMACSS style .scss modules in the modules folder
+
+.pagehead {
+
+	background-color: $primary;
+	overflow-x: hidden;
+
+	.logo {
+		display: block;
+		float: left;
+		margin: 7px 0 4px;
+		max-width: 70%;
+		img {
+			width: 100%;
+		}
+	}
+
+	#nav-toggle {
+		float: right;
+		margin: 0;
+		padding-bottom: 23px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-radius: 0;
+		@include break($d) {
+			display: none;
+		}
+	}
+
+	.nav-collapse {
+
+		@include clearfix;
+		background-color: $secondary;
+		clear: both;
+		text-align: center;
+		font-weight: lighter;
+		padding-bottom: 15px;
+		position: relative;
+		clear: both;
+		margin: 0 -500%;
+		padding: 0 500%;
+		@include break($d) {
+			margin: 0;
+			padding: 0;
+			clear: none;
+			background-color: transparent;
+			float: right;
+			padding-bottom: 0;
+			//height: 60px;
+			// clear: both;
+			// margin: 0 -500%;
+	  		//padding: 0 500%;
+		}
+
+		ul {
+
+			@include clearfix;
+			margin: 0; // cancel out global ul li style
+			@include break($d) {
+				width: auto;
+				float: left;
+				clear: none;
+			}
+
+			li {
+
+				float: left;
+				width: 50%;
+				margin: 0;
+				list-style-type: none;
+
+				@include break($d) {
+					width: auto;
+				}
+
+				a {
+
+					@extend .sans;
+					font-size: em-font(15px);
+					display: inline-block;
+					width: 100%;
+					color: $light;
+					padding: 25px 15px;
+
+					&:hover, &:active {
+						background-color: transparentize($light, 0.9);
+					}
+				}
+			}
+		}
+	}
+}
