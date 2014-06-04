@@ -20,11 +20,11 @@ $a								: 300px;	// first viewport
 $b								: 420px;	// up one
 $c								: 600px;	// up two
 $d								: 900px;	// up three
-$e								: 1100px;	// up four
-$f								: 1300px;	// up five
+$e								: 900px;	// up four
+$f								: 900px;	// up five
 $ie-fixed						: 980px;    // Viewport for IE fixed width
 
-$max 							: $f; 	// max viewport. Syntactically makes for a nicer option
+$max 							: $d; 	// max viewport. Syntactically makes for a nicer option
 
 
 // At some point, you'll want to switch from a one column view to multi-column.
@@ -47,8 +47,8 @@ $betty-blue 						: #a8d9f4;
 $light: #fff;
 $dark: #000;
 
-$primary 							: #aa0022;
-$secondary							: #9faeee;
+$primary 							: #c73439;
+$secondary							: #000;
 
 // Assign colours to variable roles
 // Be descriptive without being specific. 
@@ -70,13 +70,13 @@ $action-respond						: $al-green;
 // Greek alphabet naming system. Obscure, yet hierarchical.
 // Allows us to avoid naming based on html object. 
 // Eg. A h1 can be smaller visually, than a h4.
-$alpha   	: 42px;
-$beta		: 32px;
-$gamma		: 28px;
-$delta		: 26px;
-$epsilon	: 24px;
-$zeta		: 20px;
-$eta		: 18px;
+$alpha   	: 52px;
+$beta		: 42px;
+$gamma		: 38px;
+$delta		: 34px;
+$epsilon	: 34px;
+$zeta		: 30px;
+$eta		: 28px;
 $theta		: 15px;
 $iota 		: 14px;
 $kappa 		: 12px;
@@ -86,6 +86,7 @@ $para		: $theta; 	// Paragraph size
 $quote		: $beta;	// Quote size
 
 
+$font: 'bebas_neueregular', sans-serif;
 
 // ------------------------------------------------------------
 // :: Border widths

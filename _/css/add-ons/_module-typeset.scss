@@ -42,7 +42,7 @@
 // Use on parent element to style elements within. E.g an article page
 .typeset {
 	.headline	{ @extend .as-heading__headline; 	@extend .as-heading__headline--typeset; } 
-	h1			{ @extend .as-heading__largest; 	@extend .as-heading__largest--typeset; } 	
+	h1			{ color: $primary; @extend .as-heading__largest; 	@extend .as-heading__largest--typeset; } 	
 	h2 			{ @extend .as-heading__large; 		@extend .as-heading__large--typeset; } 	
 	h3			{ @extend .as-heading__medium; 		@extend .as-heading__medium--typeset; } 	
 	h4 			{ @extend .as-heading__normal; 		@extend .as-heading__normal--typeset; }  	
@@ -53,5 +53,9 @@
 	ul 			{ @extend .as-unordered-list--typeset; }
 	li 			{ @extend .as-list--typeset; }
 	blockquote 	{ @extend .as-blockquote--typeset; }
+	.headline, h1, h2, h3, h4, h5, h6 {
+		  font-family: 'bebas_neueregular', sans-serif !important;
+		  text-transform: uppercase;
+	}
 }
 

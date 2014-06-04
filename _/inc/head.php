@@ -22,16 +22,11 @@
 	<header class="pagehead pullwidth">
 		<section class="row">
 
-			<a class="logo" href="/"><img src="http://www.placehold.it/300x60" alt=""></a>
+			<a class="logo" href="/"><img src="_/img/manis-logo.png" alt=""></a>
 
-			<button type="button" role="button" id="nav-toggle" class="lines-button x2"><span class="lines"></span></button>
-
-			<nav class="nav-collapse">
+			<nav>
 				<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="/about">About</a></li>
-					<li><a href="/product">Product</a></li>
-					<li><a href="/contact">Contact</a></li>
+					<li><a href="/Pre-Order">Pre-Order</a></li>
 				</ul>
 			</nav>
 	</section>

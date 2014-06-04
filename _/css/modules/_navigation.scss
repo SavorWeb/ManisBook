@@ -6,8 +6,16 @@
 
 .pagehead {
 
-	background-color: $primary;
-	overflow-x: hidden;
+		height: 500px;
+		background-color: $dark;
+		background-image: url("../img/gradient.png"), url("../img/dark-maze.png");
+		background-repeat: no-repeat, no-repeat;
+		background-size: 100%, 100%;
+		background-position: center, center;
+		background-attachment: fixed, fixed;
+		overflow-x: hidden;
+
+		padding: 20px;
 
 	.logo {
 		display: block;
@@ -31,18 +39,14 @@
 		}
 	}
 
-	.nav-collapse {
+	nav {
 
 		@include clearfix;
-		background-color: $secondary;
-		clear: both;
+		background-color: transparent;
 		text-align: center;
 		font-weight: lighter;
 		padding-bottom: 15px;
 		position: relative;
-		clear: both;
-		margin: 0 -500%;
-		padding: 0 500%;
 		@include break($d) {
 			margin: 0;
 			padding: 0;
@@ -67,9 +71,9 @@
 			}
 
 			li {
-
-				float: left;
-				width: 50%;
+				text-transform: uppercase;
+				float: right;
+				// width: 50%;
 				margin: 0;
 				list-style-type: none;
 
@@ -79,15 +83,22 @@
 
 				a {
 
-					@extend .sans;
-					font-size: em-font(15px);
-					display: inline-block;
-					width: 100%;
-					color: $light;
-					padding: 25px 15px;
 
+					font-size: em-font(22px);
+					display: inline-block;
+					// width: 100%;
+					font-family: $font;
+					color: $light;
+					margin-top: 9px;
+					padding: 10px 0;
+					// border-bottom: 2px transparent solid;
+					// @include transition(all, 0.5s, ease-in-out);
+					transition: all 0.3s ease-in-out;
+					-webkit-transition: all 0.3s ease-in-out;
+					border-bottom: 2px white solid;
 					&:hover, &:active {
-						background-color: transparentize($light, 0.9);
+						color: $primary;
+						padding-bottom: 5px;
 					}
 				}
 			}

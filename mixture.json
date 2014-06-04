@@ -20,8 +20,8 @@
   "preprocessorLocations": "_",
   "preprocessorScriptOutput": "_/js",
   "preprocessorStyleOutput": "_/css",
-  "projectDescription": "Sassaparilla",
-  "projectName": "RyanSassBase",
+  "projectDescription": "Manis Book Website",
+  "projectName": "ManisBook",
   "publishedId": null,
   "remoteDebugPort": 8081,
   "routes": null,
@@ -29,7 +29,7 @@
   "serverHostname": null,
   "serverPort": null,
   "simpleModeFileTypes": null,
-  "simpleModePartnerServer": "localhost:8888/RyanSassBase",
+  "simpleModePartnerServer": "localhost:8888/ManisBook",
   "sitemap": false,
   "templateDefaultLayout": "layout",
   "templateDefaultPage": "index",
@@ -42,7 +42,7 @@
   "port": 21,
   "username": "clie4036",
   "password": "TwoCre@t1ve",
-  "path": "/notset/",
+  "path": "/ManisBook/",
   "secure": false
 }
 

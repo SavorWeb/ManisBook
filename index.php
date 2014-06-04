@@ -1,58 +1,93 @@
-<?php include("_/inc/head.php"); ?>
-	
-	<div id='slider' class='swipe'>
-	  <div id="slider-pictures" class='swipe-wrap editable'>
-	    <div class="repeatable"><img src="http://www.placehold.it/1000x300" alt=""></div>
-	    <div class="repeatable"><img src="http://www.placehold.it/1000x300" alt=""></div>
-	    <div class="repeatable"><img src="http://www.placehold.it/1000x300" alt=""></div>
-	  </div>
+<!doctype html>
+<!--[if lt IE 9 ]> <html lang="en-GB" class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en-GB" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-GB" class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="initial-scale=1, user-scalable=no">
+		<meta name="description" content="..." />
+		<meta name="keywords" content="..." />
+
+		<title>The Street Agent | MANIS</title>
+		<link rel="stylesheet" type="text/css" href="_/fonts/bebas/stylesheet.min.css">
+		<link href="_/css/screen.min.css" rel="stylesheet" type="text/css" media="all"/>
+
+		<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+	</head>
+
+	<body>
+
+	<header class="pagehead pullwidth">
+		<section class="row">
+
+			<a class="logo" href="/"><img src="_/img/manis-logo.png" alt=""></a>
+
+			<nav>
+				<ul>
+					<li><a href="/Pre-Order">Pre-Order</a></li>
+				</ul>
+			</nav>
+	</section>
+	<h1 class="hero">“Fusce dapibus tellus ac cursus commodo. 
+Duis mollis est non commodo luctus, nisi erat porttitor.”
+</h1>
+</header>
+
+<div class="row top-shim">
+	<div class="typeset colspan12-6 as-grid">
+		<h1>The Book</h1>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+</p><p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
 	</div>
-
-<div class="row typeset">
-	<h1>Heading 1</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, id, vero, commodi ut aperiam corporis nisi laudantium explicabo quis consequatur debitis eligendi quasi consequuntur asperiores deserunt placeat eos dolor ipsa.</p>
-
-	<ul class="acc">
-		<li>
-			<div class="acc-head">Thing 1<i class="fa fa-chevron-down acc-plus fa-fw"></i><i class="fa fa-chevron-up acc-minus fa-fw"></i></div>
-			<div class="acc-panel">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, eveniet, eaque, autem beatae amet mollitia saepe minus fugit odit minima maxime harum explicabo ipsa natus est similique ab reprehenderit totam!</p>
+	<div class="colspan12-6 as-grid with-gutter">
+		<img class="hero-img" src="_/img/streetagent.png">
+		<p class="typeset">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+	</div>
+</div>
+<div id="gallery" class="editable-gallery row top-shim bottom-shim">
+	<a href="" class="fancybox-effects-d"><img src="http://www.placehold.it/500x500" alt=""></a>
+	<a href="" class="fancybox-effects-d"><img src="http://www.placehold.it/500x500" alt=""></a>
+	<a href="" class="fancybox-effects-d"><img src="http://www.placehold.it/500x500" alt=""></a>
+	<a href="" class="fancybox-effects-d"><img src="http://www.placehold.it/500x500" alt=""></a>
+	<a href="" class="fancybox-effects-d"><img src="http://www.placehold.it/500x500" alt=""></a>
+	<a href="" class="fancybox-effects-d"><img src="http://www.placehold.it/500x500" alt=""></a>
+	<a href="" class="fancybox-effects-d"><img src="http://www.placehold.it/500x500" alt=""></a>
+	<a href="" class="fancybox-effects-d"><img src="http://www.placehold.it/500x500" alt=""></a>
+</div>
+<div class="author top-shim">
+	<div class="row">
+		<div class="mugshot colspan12-4 as-grid">
+			<img src="_/img/wayne.png" alt="">
+			<div class="typeset">
+			<h3>Wayne Manis</h3>
+			<p>Ask A Question</p>
 			</div>
-		</li>
-		<li>
-			<div class="acc-head">Thing 2<i class="fa fa-chevron-down acc-plus fa-fw"></i><i class="fa fa-chevron-up acc-minus fa-fw"></i></div>
-			<div class="acc-panel">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, incidunt, maxime nostrum dolore eum dolores cum sunt ducimus debitis reiciendis praesentium molestias? Soluta, fugit, nisi odit nostrum at tempore architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, repellat adipisci eius magni necessitatibus non soluta amet eligendi. Optio, consequuntur hic cumque dolorum ipsam doloribus repellendus harum unde consequatur odio?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, nobis, tenetur nihil quod itaque molestiae assumenda quam rem dolore quisquam facilis ea necessitatibus officiis praesentium labore doloribus voluptas consequuntur deserunt.</p>
-			</div>
-		</li>
-		<li>
-			<div class="acc-head">Thing 3<i class="fa fa-chevron-down acc-plus fa-fw"></i><i class="fa fa-chevron-up acc-minus fa-fw"></i></div>
-			<div class="acc-panel">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, alias nemo ab modi porro quam ex temporibus animi ipsam laborum aperiam excepturi doloremque! Quia, fugiat culpa corporis obcaecati laborum atque.</p>
-			</div>
-		</li>
-	</ul>
-	<h2>Heading 2</h2>
-	<img src="http://www.placehold.it/500x150" alt="">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, omnis, dolore, quos, numquam facilis voluptatum consectetur minima alias molestiae libero quibusdam rem error adipisci dolorem repellat accusamus dignissimos doloribus et!</p>
-	<img class="full-width" src="http://www.placehold.it/1000x300" alt="">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, tempora, similique pariatur quo nostrum quia nam quaerat impedit optio commodi iste delectus nihil hic minus dolorum possimus sunt maxime dicta.</p>
-	<h3>Heading 3</h3>
-	<blockquote>
-		The only thing worse than being blind, is having sight, and no vision.
-		<span>Anonymous</span>
-	</blockquote>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, a non hic nam repellat dolorem voluptatum vero nihil quas beatae consequuntur eligendi et ipsum recusandae vitae magnam laborum laboriosam amet.</p>
-	<h4>Heading 4</h4>
-	<img class="left" src="http://www.placehold.it/400x300" alt="">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae iure eius enim praesentium quia doloremque. Modi, molestias, nisi, cumque pariatur sint quaerat ullam recusandae reprehenderit eos dolores perferendis quidem.</p>
-	<ul>
-		<li>Things</li>
-		<li>Things</li>
-		<li>Things</li>
-		<li>Things</li>
-		<li>Things</li>
-	</ul>
+		</div>
+		<div class="colspan12-8 as-grid with-gutter typeset">
+			<h1>The Author</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, praesentium, excepturi, natus suscipit consequatur facilis ab quis debitis porro ducimus expedita quibusdam voluptate animi maxime blanditiis cupiditate culpa fugiat dolores!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, cumque, omnis possimus ab odit perferendis eos quis soluta consequuntur praesentium voluptas iusto animi labore! Beatae, velit neque ipsa nostrum perferendis.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, optio, vero, possimus, harum illum facilis eveniet ea quisquam voluptatibus temporibus magnam nam assumenda consectetur minima eum soluta explicabo nisi nulla.</p>
+		</div>
+	</div>
+</div>
+<div class="cta">
+	<div class="row typeset">
+		<p>Order the book in hardback or ebook on Amazon Books!</p>
+		<a href="" class="btn">Pre-Order</a>
+	</div>
 </div>
 
-<?php include("_/inc/foot.php"); ?>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="_/js/script.min.js"></script>
+
+	</body>
+
+</html>
