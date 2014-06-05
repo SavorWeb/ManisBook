@@ -37,7 +37,7 @@ $start-columns 						: $b;
 
 // Define your main colour palette using whatever naming system you like
 $jack-black							: #333;
-$macy-grey							: #777;	
+$macy-grey							: #4b4b4b;	
 $ron-burgundy 						: #e0006e;
 $al-green 							: #67b2b1;
 $beige-ruth 						: #f5f0e0;
@@ -60,7 +60,7 @@ $heading-color						: $jack-black;
 $hightlight-color 					: $betty-blue;
 
 $action								: $agent-orange;
-$action-respond						: $al-green;
+$action-respond						: lighten($primary, 10%);
 
 
 // ------------------------------------------------------------

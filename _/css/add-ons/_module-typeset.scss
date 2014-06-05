@@ -31,7 +31,7 @@
 	
 	
 // Set rhythm for paragraphs and lists
-.as-para--typeset 						{ margin: 0 0 rhythm(2, $para) 0; }
+.as-para--typeset 						{ margin: 0 0 rhythm(5, $para) 0; }
 .as-list--typeset 						{ margin: 0 0 rhythm(2, $para) 0; }
 
 .as-unordered-list--typeset 			{ @extend .as-list--typeset; margin-left: 1em; @include unordered; }
