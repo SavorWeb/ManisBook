@@ -62,9 +62,9 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque vo
 	<a href="media/photos/tonymagliano1981.jpg" class="fancybox-effects-d"><img src="media/photos/tonymagliano1981.jpg" alt=""></a>
 	<a href="media/photos/tonymagliano1982.jpg" class="fancybox-effects-d"><img src="media/photos/tonymagliano1982.jpg" alt=""></a>
 	<a href="media/photos/waynejordan-booking.jpg" class="fancybox-effects-d"><img src="media/photos/waynejordan-booking.jpg" alt=""></a>
+	<a href="media/photos/wfm_marinecorps.jpg" class="fancybox-effects-d"><img src="media/photos/wfm_marinecorps.jpg" alt=""></a>
 	<a href="media/photos/WFM_butch.jpg" class="fancybox-effects-d"><img src="media/photos/WFM_butch.jpg" alt=""></a>
 	<a href="media/photos/WFM_guns.jpg" class="fancybox-effects-d"><img src="media/photos/WFM_guns.jpg" alt=""></a>
-	<a href="media/photos/wfm_marinecorps.jpg" class="fancybox-effects-d"><img src="media/photos/wfm_marinecorps.jpg" alt=""></a>
 </div>
 <div class="author top-shim">
 	<div class="row">
@@ -115,6 +115,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque vo
 <link rel="stylesheet" href="_/plugins/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 <script type="text/javascript" src="_/plugins/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 <script src="_/js/masonry.pkgd.min.js"></script>
+<script src="_/js/imagesloaded.min.js"></script>
 		<script src="_/js/script.min.js"></script>
 		<script>
 $(document).ready( function() {
@@ -138,19 +139,18 @@ $(document).ready( function() {
 });
 		</script>
 		<script>
-		$(document).ready( function() {
-var container = document.querySelector('#gallery');
-var anchorimg = $('#gallery a');
 
-var msnry = new Masonry( container, {
-  columnWidth: 50,
-  itemSelector: '.fancybox-effects-d'
-});
-
-$anchorimg.imagesLoaded( function() {
-  $container.masonry();
-});
-});
+				$("#gallery").imagesLoaded(function() {
+					var container = document.querySelector('#gallery');
+				
+					var msnry = new Masonry( container, {
+					  columnWidth: 65,
+					  itemSelector: '.fancybox-effects-d'
+					});
+					
+					console.log("Ran ImagesLoaded");
+				});
+		
 		</script>
 
 	</body>
