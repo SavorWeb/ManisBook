@@ -31,8 +31,7 @@
 				</ul>
 			</nav>
 	</section>
-	<h1 class="hero">“Fusce dapibus tellus ac cursus commodo. 
-Duis mollis est non commodo luctus, nisi erat porttitor.”
+	<h1 class="hero">“When you’re undercover, there’s never a day off and you can never drop your guard.”
 </h1>
 </header>
 

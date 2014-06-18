@@ -55,7 +55,7 @@ img {
 	font-family: $font;
 	text-transform: uppercase;
 	color: $light;
-	font-size: em-font(30px);
+	font-size: em-font(40px);
 	max-width: 650px;
 	margin: 50px auto 0;
 	@include break($d) {
