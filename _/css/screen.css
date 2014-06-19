@@ -435,15 +435,18 @@ img {
   font-family: "bebas_neueregular", sans-serif;
   text-transform: uppercase;
   color: white;
-  font-size: 2.5em;
+  font-size: 1.875em;
   max-width: 650px;
   margin: 50px auto 0;
+  letter-spacing: 1px;
 }
 .lt-ie9 .hero {
+  font-size: 2.5em;
   margin: 130px auto 0;
 }
 @media screen and (min-width: 900px) {
   .hero {
+    font-size: 2.5em;
     margin: 130px auto 0;
   }
 }

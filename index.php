@@ -7,7 +7,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="initial-scale=1, user-scalable=no">
 		<meta name="description" content="..." />
-		<meta name="keywords" content="..." />
+		<meta name="keywords" content="Wayne Manis, Book, Undercover, Agent, Mob, Crime, Drama" />
 
 		<title>The Street Agent | MANIS</title>
 		<link rel="stylesheet" type="text/css" href="_/fonts/bebas/stylesheet.min.css">
@@ -38,7 +38,7 @@
 <div class="row top-shim">
 	<div class="typeset colspan12-6 as-grid">
 		<h1>The Book</h1>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+		<p>The street agent is the gripping tale of the need for a synopsis to go here detailing aspects about the book. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
@@ -76,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque vo
 		</div>
 		<div class="colspan12-8 as-grid with-gutter typeset">
 			<h1>The Author</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, praesentium, excepturi, natus suscipit consequatur facilis ab quis debitis porro ducimus expedita quibusdam voluptate animi maxime blanditiis cupiditate culpa fugiat dolores!</p>
+			<p>Wayne is well known and needs content here in the form of a short biography. Modi, praesentium, excepturi, natus suscipit consequatur facilis ab quis debitis porro ducimus expedita quibusdam voluptate animi maxime blanditiis cupiditate culpa fugiat dolores!</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, cumque, omnis possimus ab odit perferendis eos quis soluta consequuntur praesentium voluptas iusto animi labore! Beatae, velit neque ipsa nostrum perferendis.</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, optio, vero, possimus, harum illum facilis eveniet ea quisquam voluptatibus temporibus magnam nam assumenda consectetur minima eum soluta explicabo nisi nulla.</p>
 		</div>

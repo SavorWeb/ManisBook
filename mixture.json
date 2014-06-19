@@ -1,23 +1,28 @@
 {
   "autoPrefixer": null,
-  "convertHtmlExtension": ".html",
-  "convertHtmlOutput": null,
+  "convertHtml": {
+    "extension": ".html",
+    "relativePath": false
+  },
   "customRuby": false,
   "customRubyPath": null,
   "customTodos": null,
   "debug": false,
   "domain": null,
   "followLeader": true,
-  "ftpSettings": null,
   "gitHubPages": null,
-  "ignoreDir": "ignore",
+  "ignoreDir": [
+    "ignore"
+  ],
   "less": null,
   "lintScripts": false,
   "modelSource": null,
   "optimiseImages": true,
   "optimiseSVG": true,
   "password": null,
-  "preprocessorLocations": "_",
+  "preprocessorLocations": [
+    "_"
+  ],
   "preprocessorScriptOutput": "_/js",
   "preprocessorStyleOutput": "_/css",
   "projectDescription": "Manis Book Website",
@@ -35,16 +40,5 @@
   "templateDefaultPage": "index",
   "templateDirectory": "templates",
   "type": "simple",
-  "useCompass": true,
-
-  "ftpSettings": {
-  "host": "client.savorweb.com",
-  "port": 21,
-  "username": "clie4036",
-  "password": "TwoCre@t1ve",
-  "path": "/ManisBook/",
-  "secure": false
-}
-
-
+  "useCompass": true
 }

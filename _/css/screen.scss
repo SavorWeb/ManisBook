@@ -55,10 +55,12 @@ img {
 	font-family: $font;
 	text-transform: uppercase;
 	color: $light;
-	font-size: em-font(40px);
+	font-size: em-font(30px);
 	max-width: 650px;
 	margin: 50px auto 0;
+	letter-spacing: 1px;
 	@include break($d) {
+		font-size: em-font(40px);
 		margin: 130px auto 0;		
 	}
 }
