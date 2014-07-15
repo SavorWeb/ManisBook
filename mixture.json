@@ -2,7 +2,7 @@
   "autoPrefixer": null,
   "convertHtml": {
     "extension": ".html",
-    "relativePath": false
+    "relativePaths": false
   },
   "customRuby": false,
   "customRubyPath": null,

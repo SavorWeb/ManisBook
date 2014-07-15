@@ -46,6 +46,10 @@ a {
 	}
 }
 
+hr {
+	margin-bottom: 21px;
+}
+
 img {
 	max-width: 100%;
 }
@@ -61,7 +65,7 @@ img {
 	letter-spacing: 1px;
 	@include break($d) {
 		font-size: em-font(40px);
-		margin: 130px auto 0;		
+		margin: 110px auto 0;		
 	}
 }
 
